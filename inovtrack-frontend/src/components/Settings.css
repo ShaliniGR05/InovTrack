@@ -1,0 +1,65 @@
+/* Sidebar and Main Content Styles */
+.settings-container {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f6f8;
+}
+
+.settings-sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #2f3136;
+    color: #b9bbbe;
+}
+
+.settings-sidebar h2, .settings-sidebar h3 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.settings-sidebar a {
+    color: #b9bbbe;
+    text-decoration: none;
+    padding: 5px 0;
+    display: block;
+}
+
+.settings-sidebar a:hover {
+    color: white;
+}
+
+.settings-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-left: 1px solid #ddd;
+}
+
+/* Form and Input Styles */
+section h2, section h3 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+    display: block;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+button {
+    background-color: #7289da;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f73a1;
+}

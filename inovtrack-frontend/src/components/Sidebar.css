@@ -1,0 +1,35 @@
+/* Sidebar.css */
+.sidebar {
+    width: 200px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100vh;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar-link {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+    border: none; /* Remove border */
+    outline: none; /* Remove outline */
+
+  }
+  
+  .sidebar-link:focus,
+.sidebar-link:active {
+  border: none; /* Ensure no border appears on active/focus state */
+  outline: none; /* Ensure no outline appears on focus */
+}
+
+.sidebar-link:hover {
+  background-color: #f0f0f0; /* Optional hover effect */
+  color: #2579e8;
+}
+  

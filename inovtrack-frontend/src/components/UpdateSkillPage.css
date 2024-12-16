@@ -1,0 +1,84 @@
+/* UpdateSkillPage.css */
+
+/* Full-width container with margin for centering */
+.update-skill-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%; /* Full width of the page */
+  max-width: 1200px; /* Max width to avoid content stretching too far on large screens */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 40px 20px;
+  min-height: 80vh;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading at the top of the container */
+h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Grid layout for 4 rows and 2 columns */
+.update-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  grid-template-rows: repeat(4, auto); /* 4 rows */
+  gap: 20px; /* Space between fields */
+  width: 100%; /* Full width to fill the container */
+  max-width: 100%;
+}
+
+/* Style each field item */
+.update-field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+  box-sizing: border-box; /* Ensures padding and border don't overflow the field */
+  flex: 1; /* Fill the available space */
+  min-height: 120px; /* Ensures fields have a consistent size */
+}
+
+/* Hover effect for fields */
+.update-field:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon styles */
+.field-icon {
+  color: #007bff;
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.plus-icon {
+  color: #28a745;
+  cursor: pointer;
+  font-size: 24px;
+  transition: transform 0.2s;
+}
+
+.plus-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Text styling */
+.update-field span {
+  flex-grow: 1;
+  font-size: 18px;
+  padding-left: 10px;
+  color: #333;
+}

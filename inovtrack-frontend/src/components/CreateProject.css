@@ -1,0 +1,102 @@
+.create-project-form {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea,
+.team-member input,
+.team-member select,
+.task input,
+.task select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.team-member,
+.task {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.add-member-button,
+.add-task-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #318d35;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-member-button:hover,
+.add-task-button:hover {
+  background-color: #256a28;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.create-button,
+.automate-button {
+  padding: 10px 20px;
+  background-color: #318d35;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create-button:hover,
+.automate-button:hover {
+  background-color: #256a28;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .team-member,
+  .task {
+    flex-direction: column;
+  }
+
+  .button-group {
+    flex-direction: column;
+  }
+
+  .button-group button {
+    width: 100%;
+    margin-top: 10px;
+  }
+}

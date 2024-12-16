@@ -1,0 +1,45 @@
+.profile-sidebar {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #ddd;
+  margin: 0 auto 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-button,
+.view-cv-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #318d35;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.view-cv-button {
+  background-color: #318d35;
+}
+
+.update-button:hover,
+.view-cv-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px #218838;
+}

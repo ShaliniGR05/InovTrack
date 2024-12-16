@@ -1,0 +1,21 @@
+/* App.css */
+
+.app {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.profile-academic-container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.academic-section,
+.skill-development-section {
+  flex: 1;
+}

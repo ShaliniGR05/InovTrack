@@ -1,0 +1,92 @@
+/* Invites.css */
+.invites-container {
+    max-width: 98%; /* Utilize almost the full width */
+    margin: 20px auto; /* Add some margin on top and bottom */
+  }
+  
+  .invites-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .task {
+    display: flex;
+    margin: 10px 10px 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Make sure task occupies full width */
+  }
+  
+  .task-content {
+    flex: 1; /* Allow task content to grow and take space */
+  }
+  
+  .task-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .task-details {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 15px; /* Provide proper spacing between buttons */
+  }
+  
+  .task-buttons button {
+    padding: 10px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 120px; /* Ensure consistent button size */
+  }
+  
+  .accept-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .accept-button:hover {
+    background-color: #218838;
+  }
+  
+  .decline-button {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .decline-button:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 768px) {
+    .task {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .task-buttons {
+      margin-top: 10px;
+      width: 100%;
+      justify-content: space-between;
+    }
+  
+    .task-buttons button {
+      width: 48%;
+    }
+  }
+  
